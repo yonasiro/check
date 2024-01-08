@@ -6,6 +6,10 @@ body{
     min-width: 960px;
     margin: 0 auto 0 auto;
 }
+#nav-sp,
+#menu-sp{
+  display: none;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -238,7 +242,8 @@ h3{
       }
       #menu-sp{
         float: right;
-        padding: 0;        
+        padding: 0;
+        display: block;        
       }
       #nav-sp{
         background-color: #2710d5;
@@ -513,6 +518,3 @@ h3{
   font-size: 14px;
 }
 /* うまく機能してないので修正　修正終わればコメント削除 */
-#nav-pc{
-display: none;
-}
